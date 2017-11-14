@@ -28,11 +28,12 @@ Execution:
         ./a.out <dictionary_file> <grid_file>
         
         An example execution would be: 
-            ./a.out data/words2.txt data/300x300.grid.txt
+            ./a.out words2.txt 300x300.grid.txt
             
-    There is also a shell script which calculates the average time for 5 runs on a certain dictionary and grid. This can be executed by: 
+    There is also a shell script which calculates the average time for 5 runs on a certain dictionary and grid. 
+    This can be executed by: 
         ./averagetime.sh
-    And then entering the dictionary file and grid file (such as data/words2.txt and data/300x300.grid.txt). 
+    And then entering the dictionary file and grid file (such as words2.txt and 300x300.grid.txt). 
     The time output of the shell script is in milliseconds. 
     
     
