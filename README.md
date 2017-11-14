@@ -5,11 +5,16 @@ Word Puzzle Problem
 The goal of this code is to find all words within a grid of letters, in any direction. 
 
 Program Details:
-    Input grids: First line of the input grid file is the number of rows, and the second line of the input grid is the number of columns. The third line is the grid data, with no spaces. All input grids are stored in the data directory. 
+    Input grids: First line of the input grid file is the number of rows, and the second line of the input grid 
+    is the number of columns. The third line is the grid data, with no spaces. All input grids are stored in the 
+    data directory. 
     
-    Dictionary files (data/words.txt, data/words2.txt): The dictionary file contains one word per line. Words from the dictionary file are stored in a hash table via wordPuzzle.cpp. All dictionary files are stored in the data directory (words.txt, words2.txt)
+    Dictionary files (data/words.txt, data/words2.txt): The dictionary file contains one word per line. Words 
+    from the dictionary file are stored in a hash table via wordPuzzle.cpp. All dictionary files are stored in
+    the data directory (words.txt, words2.txt)
     
-    Timing: Timer routines allow to show how long is takes to find all valid words in a grid, after the hash table is built initially. 
+    Timing: Timer routines allow to show how long is takes to find all valid words in a grid, after the hash 
+    table is built initially. 
     
     Valid words: Program only reports words with three or more letters, and words are case sensitive. 
     
