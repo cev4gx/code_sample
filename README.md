@@ -5,6 +5,7 @@ Word Puzzle Problem
 The goal of this code is to find all words within a grid of letters, in any direction. 
 
 Program Details:
+
     Input grids: First line of the input grid file is the number of rows, and the second line of the input grid 
     is the number of columns. The third line is the grid data, with no spaces. All input grids are stored in the 
     data directory. 
@@ -23,6 +24,7 @@ Program Details:
 
 Execution: 
     After running makefile, a single exection is done as follows: 
+    
         ./a.out <dictionary_file> <grid_file>
         
         An example execution would be: 
